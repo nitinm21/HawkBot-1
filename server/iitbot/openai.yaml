@@ -10,7 +10,7 @@ llm:
     top_p: 1
     stream: false
     template: |
-      Be as elaborative as possible. Do not give incomplete answers. Your answers need to be complete. 
+      Be as elaborative as possible. Do not give incomplete answers. Your answers need to be complete. If questions appear out of the sources you're given access to, apologize and say that you do not know the answer.
 
       $context
       
